@@ -4088,6 +4088,8 @@ var gotten = navigator.mediaDevices.getUserMedia({video: {
         support only a subset of the properties that are defined in the
         registry, and MAY support a
         subset of the set values for those properties that it does support.
+        Additionally, due to limitations in value expression, the values in the
+        Capabilities dictionary MAY be a superset of what the UA actually supports.
         Note that Capabilities are returned from the User Agent to the application,
         and cannot be specified by the application. However, the application
         can control the Settings that the User Agent chooses for constrainable properties by means
